@@ -2,7 +2,7 @@ import axios from 'axios'
 import { loginFailed, loginStart, loginSuccess, registerFailed, registerStart, registerSuccess } from './authslice'
 import { addSuccess, addStart, addFailed, getStart, getFailed, getSuccess } from './songSlice'
 
-const URL = "https://social-x2.herokuapp.com/"
+const URL = "https://social-x2.herokuapp.com"
 
 export const loginUser = async(user, dispatch, navigate) => {
     dispatch(loginStart())
